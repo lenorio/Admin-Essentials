@@ -1,0 +1,19 @@
+{
+  "console_prefix": "[CONSOLE]",
+  "player_prefixes": {
+    "russianphonks": "[Admin]"
+  },
+  "near_default_radius": 50,
+  "allowed_commands": {
+    "russianphonks": [
+      "adminmod.broadcast",
+      "adminmod.tps",
+      "adminmod.invsee",
+      "adminmod.near",
+      "adminmod.vanish",
+      "adminmod.rename",
+      "adminmod.lore",
+      "adminmod.allowcommand"
+    ]
+  }
+}

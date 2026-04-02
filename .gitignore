@@ -1,0 +1,36 @@
+.gradle/
+build/
+out/
+bin/
+run/
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local runtime config/state
+config/adminmod/config.json
+config/adminmod/permissions.json
+config/adminmod/punishments/
+
+# Keep tracked locales and docs
+!config/locales/
+!config/locales/*.loc
+
+# Keep wrapper jar for reproducible builds
+!gradle/wrapper/gradle-wrapper.jar

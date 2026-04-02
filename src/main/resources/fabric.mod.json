@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "adminmod",
+  "version": "${version}",
+  "name": "Admin Mod",
+  "description": "Server-side Fabric moderation and utility mod: permissions, punishments, vanish, invsee, tps, and localized messages.",
+  "authors": [
+    "russianphonks"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/adminmod",
+    "sources": "https://github.com/russianphonks/adminmod",
+    "issues": "https://github.com/russianphonks/adminmod/issues"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.russianphonks.adminmod.AdminMod"
+    ]
+  },
+  "mixins": [
+    "adminmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}
